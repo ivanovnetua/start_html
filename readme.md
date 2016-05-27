@@ -1,6 +1,5 @@
 CLEAR HTML TEMPLATE
 ==============================
-----------
 
 
 This template is used for fast starting your work. There is included Gulp and Bower. You can automaticaly compile sass/scss, add vendor prefixes, minimize html/css/images/js and build project. All of your changes will be automaticaly and you will see theirs in browser.
