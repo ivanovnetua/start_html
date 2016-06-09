@@ -12,7 +12,7 @@ This template is used for fast starting your work. There is included Gulp and Bo
 
 ## How use
 * Working and watching changes: `gulp work`.
-* Build your project: `gulp work`.
+* Build your project: `gulp build`.
 
 
 ## What's included
