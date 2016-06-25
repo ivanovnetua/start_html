@@ -31,7 +31,7 @@ gulp.task('server', function() {
 // Sass compiler
 
 gulp.task('sass', function () {
-	return gulp.src('app/sass/*/*.+(scss|sass)')
+	return gulp.src('app/sass/*.+(scss|sass)')
 	.pipe(sass().on('error', sass.logError))
 	.pipe(autoprefixer({
 	browsers: ['last 15 versions', '> 1%', 'ie 8', 'ie 7'],
