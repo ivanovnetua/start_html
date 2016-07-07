@@ -31,8 +31,8 @@ gulp.task('server', function() {
 // Sass compiler
 
 gulp.task('sass', function () {
-	return gulp.src('app/sass/*.+(scss|sass)')
-	.pipe(sass().on('error', sass.logError))
+	return gulp.src(['app/sass/**/*.sass', 'app/sass/**/*.scss'])
+	.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
 	.pipe(autoprefixer({
 	browsers: ['last 15 versions', '> 1%', 'ie 8', 'ie 7'],
 	cascade: false
