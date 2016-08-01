@@ -43,4 +43,4 @@ This template is used for fast starting your work. There is included Gulp and Bo
 
 ## Author
 
-###**Vladimir Ivanov** ([ivanov.net.ua](https://www.npmjs.com))
+###**Vladimir Ivanov** ([ivanov.net.ua](https://ivanov.net.ua))
